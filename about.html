@@ -4,61 +4,92 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About Us - Maritime Mobile Marine</title>
-  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f9ff;
+      color: #333;
+    }
+    header {
+      background-color: #003f7f;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #0055a5;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.75rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .section {
+      margin-bottom: 2.5rem;
+    }
+    .section h2 {
+      color: #003f7f;
+      margin-bottom: 1rem;
+    }
+    footer {
+      background-color: #003f7f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Maritime Mobile Marine</h1>
-    <p>Mobile Outboard Service and Repair</p>
+    <h1>About Maritime Mobile Marine</h1>
+    <p>Trusted Mobile Outboard Service on the Coast</p>
   </header>
-
 
   <nav>
     <a href="index.html">Home</a>
-    <a href="about.html">About Us</a>
+    <a href="about.html">About</a>
     <a href="services.html">Services</a>
     <a href="contact.html">Contact</a>
   </nav>
 
-  <main>
-    <section>
-      <h2>About Us</h2>
-      <p>Welcome to Maritime Mobile Marine, your trusted partner for on-the-go outboard motor repair and maintenance. As a family-owned business, we pride ourselves on delivering personalized, high-quality service to boaters in our community. With years of experience, we are committed to providing reliable solutions to keep you on the water.</p>
-    </section>
-  </main>
-
-    <section id="reviews" style="background-color: #f0f8ff; padding: 2rem;">
-  <h2 style="text-align: center; color: #003f7f;">What Our Customers Say</h2>
-  
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-top: 1rem;">
-    
-    <!-- Review Card 1 -->
-    <div style="max-width: 300px; background: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
-      <p style="font-size: 1.2rem; margin-bottom: 0.5rem;">★★★★★</p>
-      <p>"Professional quality work. Was very knowledgeable on our Searay and easy to work with. Will be our go-to person."</p>
-      <p style="font-weight: bold; margin-top: 1rem;">– Alisha H.</p>
-      <a href="https://www.yelp.com/biz/maritime-mobile-marine-cape-coral-2" target="_blank" style="font-size: 0.9rem; color: #1a73e8;">Read on Yelp</a>
+  <div class="container">
+    <div class="section">
+      <h2>Our Mission</h2>
+      <p>At Maritime Mobile Marine, our mission is simple: provide reliable, convenient, and expert mobile outboard engine service directly to our customers. We believe in honest work, fair pricing, and making sure your boat is ready when you are.</p>
     </div>
 
-    <!-- Review Card 2 -->
-    <div style="max-width: 300px; background: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
-      <p style="font-size: 1.2rem; margin-bottom: 0.5rem;">★★★★★</p>
-      <p>"Very professional and knowledgeable. Highly recommend for any outboard repair needs."</p>
-      <p style="font-weight: bold; margin-top: 1rem;">– Sarah M.</p>
+    <div class="section">
+      <h2>Who We Are</h2>
+      <p>Founded by a certified marine technician with over a decade of hands-on experience, Maritime Mobile Marine is built on a passion for boating and mechanical precision. We bring shop-quality service directly to your dock, marina, or driveway—saving you time and hassle.</p>
     </div>
 
-    <!-- Review Card 3 -->
-    <div style="max-width: 300px; background: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
-      <p style="font-size: 1.2rem; margin-bottom: 0.5rem;">★★★★★</p>
-      <p>"Honest, fast, and reliable. My go-to for marine engine service!"</p>
-      <p style="font-weight: bold; margin-top: 1rem;">– Chris B.</p>
+    <div class="section">
+      <h2>Why Choose Us?</h2>
+      <ul>
+        <li>✔ Fully mobile service – we come to you</li>
+        <li>✔ Certified and experienced technician</li>
+        <li>✔ Fast diagnostics and dependable repairs</li>
+        <li>✔ Specialized in Yamaha, Mercury, Honda, Suzuki & more</li>
+        <li>✔ Customer satisfaction is our top priority</li>
+      </ul>
     </div>
-
   </div>
-</section>
 
   <footer>
-    &copy; 2025 Maritime Mobile Marine. All rights reserved.
+    <p>&copy; 2025 Maritime Mobile Marine | Dedicated to Keeping You on the Water</p>
   </footer>
 </body>
 </html>
