@@ -1,15 +1,17 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #f4f9ff;
   color: #333;
+  line-height: 1.6;
 }
 
-/* Header background moved from <header> to logo-wrapper */
+/* Header & Logo */
 header {
   padding: 0;
 }
@@ -18,7 +20,7 @@ header {
   position: relative;
   text-align: center;
   background-color: #003f7f;
-  padding: 2rem 1rem 4rem; /* extra bottom padding for text overlay */
+  padding: 2rem 1rem 4rem;
   margin-bottom: 2rem;
 }
 
@@ -27,11 +29,13 @@ header {
   max-height: 280px;
   display: block;
   margin: 0 auto;
+  position: relative;
+  z-index: 2; /* logo on top */
 }
 
 .text-overlay {
   position: absolute;
-  bottom: 20px; /* move it closer to the logo */
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   color: white;
@@ -42,6 +46,8 @@ header {
   text-align: center;
   width: 90%;
   max-width: 600px;
+  z-index: 1; /* behind logo */
+}
 
 .text-overlay h1 {
   margin: 0;
@@ -115,7 +121,6 @@ h2 {
 }
 
 p {
-  line-height: 1.6;
   font-size: 1.05rem;
 }
 
