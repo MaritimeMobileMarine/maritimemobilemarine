@@ -1,14 +1,15 @@
 top-bar {
   background-color: #003f7f;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem ;
   text-align: center;
 }
 
 .top-bar .phone {
   color: white;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
   text-decoration: none;
+  display:in-line block;
 }
 
 .top-bar .phone:hover {
