@@ -5,6 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact Us - Maritime Mobile Marine</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    .contact-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 2rem;
+    }
+
+    .contact-info {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .contact-info h2 {
+      color: #003f7f;
+      margin-bottom: 1rem;
+    }
+
+    .contact-info p,
+    .contact-info a {
+      margin-bottom: 0.75rem;
+      display: block;
+      font-size: 1rem;
+      color: #003f7f;
+    }
+
+    .contact-info img {
+      margin-top: 1rem;
+      max-width: 250px;
+      border-radius: 8px;
+    }
+
+    .contact-form {
+      flex: 1;
+      min-width: 280px;
+    }
+  </style>
 </head>
 <body>
 
@@ -28,8 +67,19 @@
     <a href="contact.html">Contact</a>
   </nav>
 
-  <div class="container">
-    <div class="section">
+  <div class="container contact-wrapper">
+
+    <div class="contact-info">
+      <h2>Contact Information</h2>
+      <p><strong>📞 Phone:</strong> (239) 371-7322</p>
+      <p><strong>📧 Email:</strong> <a href="mailto:your@email.com">your@email.com</a></p>
+      <p><strong>📍 Mobile Address:</strong><br>
+         2619 SW 52nd Terrace,<br>
+         Cape Coral, FL 33914</p>
+      <img src="images/Logo.png" alt="Maritime Mobile Marine Logo">
+    </div>
+
+    <div class="contact-form">
       <h2>Send Us a Message</h2>
       <form action="https://formspree.io/f/mqaqljwq" method="POST">
         <label for="name">Your Name</label>
@@ -44,6 +94,7 @@
         <button type="submit">Send Message</button>
       </form>
     </div>
+
   </div>
 
   <footer>
