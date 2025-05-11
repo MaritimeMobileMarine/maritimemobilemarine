@@ -1,6 +1,20 @@
-top-bar {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f9ff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Top Bar - Phone Number */
+.top-bar {
   background-color: #003f7f;
-  padding: 0.5rem 1rem ;
+  padding: 0.5rem 1rem;
   text-align: center;
 }
 
@@ -13,18 +27,6 @@ top-bar {
 
 .top-bar .phone:hover {
   text-decoration: underline;
-}
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f4f9ff;
-  color: #333;
-  line-height: 1.6;
 }
 
 /* Header & Logo */
